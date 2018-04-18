@@ -9,6 +9,7 @@ def batch_badge_creator(attendees)
 
     attendees.map do |name|
     badge_maker(name)
+    attendees.collect { "Hello, my name is " + |name| + "."  }
   end
 badge_messages
   end
