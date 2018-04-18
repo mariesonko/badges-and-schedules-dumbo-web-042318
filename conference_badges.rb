@@ -4,12 +4,11 @@ end
 def batch_badge_creator(attendees)
   badge_messages = []
 
-  attendees.each do |name|
-    badge_messages<< (name)
+  attendees.each do |person|
+    badge_messages<< (person)
 
-  #  attendees.map do |name|
-    attendees.collect { "Hello, my name is " + |name| + "."  }
-      badge_maker(name)
+  attendees.map do |person|
+      badge_maker(person)
   end
 badge_messages
   end
