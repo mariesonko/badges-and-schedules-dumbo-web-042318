@@ -1,3 +1,3 @@
-def badge_maker(array, name)
-  array.push("Hello, my name is #{name}.")
+def badge_maker(name)
+  push("Hello, my name is #{name}.")
 end
